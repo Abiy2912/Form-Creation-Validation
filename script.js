@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 document.getElementById('registration-form').addEventListener('submit', function(event) {
   event.preventDefault(); // Prevent the form from submitting
 
@@ -38,4 +39,5 @@ document.getElementById('registration-form').addEventListener('submit', function
   feedback.style.color = '#4CAF50'; // Change feedback color to green
   feedback.style.backgroundColor = '#DFF2BF'; // Change background color to light green
   feedback.style.display = 'block';
+});
 });
